@@ -1,0 +1,312 @@
+Header {
+
+    background-color: #3B4B64;
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 18pt;
+}
+
+h1 {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 65pt;
+}
+
+
+h2 {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat-Bold';
+    font-size: 42pt;
+}
+
+
+h3 {
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 18pt;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 14pt;
+    margin-block-start: 0px;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    align-items: center;
+    width: 1024px;
+
+}
+
+.herocontent {
+
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row {
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+
+}
+
+#hero {
+
+    background-color: #323640;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Reg';
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+.sectionheader {
+
+    color: #3B4B64; 
+    text-align: center;
+}
+
+.sections h3 {
+
+    color: #3B4B64; 
+}
+
+.sections {
+
+    width: 1024px;
+    margin: auto;
+}
+
+.portfoliocontainer {
+
+    display: flex;
+    margin: 40px 0px;
+}
+
+.portfoliocontent {
+
+    padding-left: 100px;
+    font-family: 'Montserrat-Reg';
+    font-size: 18pt;
+    color: #3B4B64; 
+}
+
+.sections button {
+
+    background-color: #E4A01B;
+    color: #323640; 
+    font-family: 'Montserrat-Reg';
+    font-size: 18pt;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+
+    background-color: #3B4B64;
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 18pt;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.copyright {
+
+    text-align: center;
+}
+
+footer .flex-parent {
+
+    justify-content: flex-start;
+}
+
+footer img {
+
+    margin-right: 20px;
+
+}
+.header {
+
+    background-color: #3B4B64;
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 18pt;
+}
+
+
+.herocontent {
+
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row {
+    color: #FFFFFF;
+    font-family: 'Montserrat-Reg'; 
+
+}
+
+#hero {
+
+    background-color: #323640;
+}
+
+
+
+#experienceheader {
+
+    background-color: #323640;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.uxuidesign {
+
+    padding-left: 450px;
+    padding-right: 450px;
+    font-family: 'Montserrat-Reg';
+    font-size: 18pt;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.downloadresume {
+
+    background-color: #E4A01B;
+    color: #323640; 
+    font-family: 'Montserrat-Reg';
+    font-size: 18pt;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+
+}
+
+#about > h2 {
+    color: #323640; 
+    text-align: center;
+    
+}
+
+.sectionAboutContent {
+
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#about {
+
+    margin: 0 450px;
+    margin-bottom: 50px;
+}
+
+#content-left {
+
+    margin-right: 40px;
+}
+
+.hiimjohnny {
+    margin-left: 450px;
+}
+
+#aboutmephoto {
+
+    object-fit: contain;
+}
+
+#contactheader {
+
+    background-color: #323640;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: center;
+
+}
+
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375 rem 0.75 rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: center;
+
+ color: #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0 rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+@media screen (max-width: 600) {
+    flex-direction: columns;
+    width: 100%;
+
+}
