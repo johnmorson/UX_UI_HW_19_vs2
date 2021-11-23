@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7RKW3J2HK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J7RKW3J2HK');
+</script>
 
 <script src="/html/howto/example.js"></script>
 </head>
@@ -229,11 +238,11 @@
 
 
        <!-- Default form contact -->
-<form class="text-center border border-light p-5" action="#!">
+<form class="contactFormContainer" action="#!">
 
 
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"><br>
 
     <!-- Email -->
     <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
@@ -247,7 +256,7 @@
     
 
     <!-- Send button -->
-    <button class="btn btn-info btn-block" type="submit">Send</button>
+    <button class="sendButton" type="submit">Send</button>
 
 </form>
 <!-- Default form contact -->

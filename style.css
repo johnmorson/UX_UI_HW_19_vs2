@@ -11,7 +11,7 @@ h1 {
 
     color: #FFFFFF;
     font-family: 'Montserrat';
-    font-size: 65pt;
+    font-size: 55pt;
 }
 
 
@@ -28,6 +28,8 @@ h3 {
     font-family: 'Montserrat-Reg'; 
     font-size: 18pt;
 }
+
+
 
 p {
 
@@ -69,6 +71,12 @@ p {
     margin-left: 60px;
     align-items: center;
     width: 1024px;
+
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #E4A01B;
 
 }
 
@@ -148,6 +156,11 @@ p {
     padding: 10px;
     margin-top: 20px;
 }
+
+button:hover {
+    background: #323640;
+    color: white;
+  }
 
 footer {
 
@@ -283,15 +296,17 @@ footer img {
     padding-top: 40px;
 }
 
-.text-centerborderborder-lightp-5 {
+.contactFormContainer {
 
-    margin: auto;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
 }
 
 
-.btnbtn-infobtn-block {
+.sendButton {
 
-    button: #E4A01B;
+    background-color: #E4A01B;
     margin-bottom: 40px;
 }
 
