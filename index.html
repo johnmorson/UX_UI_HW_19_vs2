@@ -17,61 +17,57 @@
   gtag('config', 'G-J7RKW3J2HK');
 </script>
 
-<script src="/html/howto/example.js"></script>
 </head>
 
-</head>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="index.js"></script>
+
 <body>
-    
 <header>
 
     <div class="flex-parent">
         
-
-  
-
         <div id="row" class="flex-container">
             <img src="images/logo.png" width="90"height="90">
 
         </div>
 
 
-            <div class="menu">
-            <div class="flex_item">PORTFOLIO</div>
-            <div class="flex_item">ABOUT</div>
-            <div class="flex_item">EXPERIENCE</div>
-            <div class="flex_item">CONTACT</div>
-        
+        <div class="menu">
+        <div class="flex_item" data-page = "portfolio">PORTFOLIO</div>
+        <div class="flex_item" data-page = "about">ABOUT</div>
+        <div class="flex_item" data-page = "experienceheader">EXPERIENCE</div>
+        <div class="flex_item" data-page = "contactheader">CONTACT</div>
         </div>
+    
     </div>
 
 
 </header>
+
+
 <section id="hero">
     <div class="herocontent">
         <div class="text">
 
-
-        
-            <h1>
+            <h1 style = "margin-top: 35px; margin-bottom: 48px;">
             HI<span style="color: #E4A01B;">,</span>
             I<span style="color: #E4A01B;">'</span>M<br>
             JOHNNY<span style="color: #E4A01B;">.</span>
             </h1>
+            
             <h3>
                 UX/UI DESIGNER<br>
                 GRAPHIC DESIGNER
             </h3>
             <br>
-            <h3>I’m an empathetic user experience practitioner<br>bridging gaps between clients, developers and users.</h3>
+            <h3 style = "margin-bottom: 35px;">I’m an empathetic user experience practitioner<br>bridging gaps between clients, developers and users.</h3>
+        
         </div>
         <div><img src="images/portrait.png" width="342" height="342"></div>
     
     </div>
-        
-    
-
-    
+          
 </section>
 
 <section id="portfolio">
@@ -180,21 +176,20 @@
 
                 International Institute of Minnesota<br>
                 Senior Teacher, Intake Interviewer, Volunteer Supervisor, Activity Guide, Festival of Nations Staff Photographer<br><br>
-
+            </h3>
                 <button class="downloadresume">
 
                     DOWNLOAD RESUME
                 </button>
 
-
-
-            </h3>
+            
         </div>
 </section>
 
 <section id="about">
 
     <h2>ABOUT</h2>
+    <img id="aboutmephoto" src="images/About Me Photo.png" style = "display: block; margin-left: auto; margin-right: auto;">
 
         <h3>
         <span style="color: #E4A01B;">Hi, I'm Johnny!</span><br><br>
@@ -205,7 +200,7 @@
             <div id="content-left">
                 
 
-                <p>I earned my Bachelor's Degree in Studio Art and French, living briefly in New York City and Paris, France. Along the way I learned graphic design and photography, yet my language and multicultural interests led to a career in teaching English to immigrants, refugees and international students at the college level. My patience, empathetic nature and innate desire to help people were great benefits in the classroom and in conducting countless intake interviews with nervous newcomers.<br><br>
+                <p style = "margin-bottom: 0;">I earned my Bachelor's Degree in Studio Art and French, living briefly in New York City and Paris, France. Along the way I learned graphic design and photography, yet my language and multicultural interests led to a career in teaching English to immigrants, refugees and international students at the college level. My patience, empathetic nature and innate desire to help people were great benefits in the classroom and in conducting countless intake interviews with nervous newcomers.<br><br>
                     
                     After a career in education, I'm ready to apply my varied skills and experiences to the field of UX/UI design. I was also a performing and recording musician, which led to hosting live music shows. Several years ago I started my own nonprofit entertainment business and built the brand, logo and website by myself. Whether it's graphic or interior design, events or landscaping, I love working with others on projects from beginning to end.<br><br>
 
@@ -224,7 +219,7 @@
 
             </div>
 
-                    <img id="aboutmephoto" src="images/About Me Photo.png">
+        
         </div>
 
 </section>
@@ -234,23 +229,23 @@
 
 <section id="contactheader">
 
-            <h2>CONTACT</h2><br><br>
+            <h2>CONTACT</h2>
 
 
        <!-- Default form contact -->
-<form class="contactFormContainer" action="#!">
+<form class="contactFormContainer" action="#!" style = "margin-top: 0;">
 
 
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"><br>
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" style = "width: 80%; padding-top: 2%; padding-bottom: 2%; margin-bottom: 2%;"><br>
 
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" style = "width: 80%; padding-top: 2%; padding-bottom: 2%; margin-bottom: 2%;">
 
 
     <!-- Message -->
     <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" style = "width: 80%; padding-top: 2%; padding-bottom: 2%; margin-bottom: 2%;"></textarea>
     </div>
 
     
@@ -261,7 +256,6 @@
 </form>
 <!-- Default form contact -->
 </section>
-
 
 <footer>
     <div class="flex-parent">
@@ -289,6 +283,7 @@
             © 2021 John Morson 
         </div>
 </footer>
+</body>
 
 <!--</body>
 <!DOCTYPE html>

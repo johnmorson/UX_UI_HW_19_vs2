@@ -1,13 +1,6 @@
-<html>
-<body>
-
-<button onhover="Say_Hello()">Click on this text!</button>
-
-<script>
-function Say_Hello() {
-alert("Hello Poftut.com");
-}
-</script>
-
-</body>
-</html>
+$(document).ready(function(e) { 
+    $(".menu .flex_item").click(function(){
+      var pageId = $(this).attr("data-page");
+      $("html, body").animate({ scrollTop: $("#"+pageId).offset().top-150}, 1000);
+    });
+});

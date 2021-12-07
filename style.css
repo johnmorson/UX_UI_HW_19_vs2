@@ -1,27 +1,29 @@
 Header {
-
     background-color: #3B4B64;
-    padding: 15px;
+    padding: 1%;
     color: #FFFFFF;
     font-family: 'Montserrat-Reg'; 
     font-size: 18pt;
+    position: fixed;
+    width: 98%;
+    top: 0;
+}
+
+body { 
+    margin: 0;
 }
 
 h1 {
-
     color: #FFFFFF;
     font-family: 'Montserrat';
     font-size: 55pt;
 }
 
-
 h2 {
-
     color: #FFFFFF;
     font-family: 'Montserrat-Bold';
     font-size: 42pt;
 }
-
 
 h3 {
     color: #FFFFFF;
@@ -29,10 +31,7 @@ h3 {
     font-size: 18pt;
 }
 
-
-
 p {
-
     color: white;
     font-family: 'Montserrat-Reg'; 
     font-size: 14pt;
@@ -64,24 +63,26 @@ p {
 }
 
 .menu {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 60px;
     align-items: center;
     width: 1024px;
-
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
+.flex_item:hover{
     color: #E4A01B;
 
 }
 
-.herocontent {
+/* a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #E4A01B;
 
+} */
+
+.herocontent {
     width: 1024px;
     margin: auto;
     display: flex;
@@ -92,13 +93,11 @@ a, a:hover, a:focus, a:active {
 #row {
     color: #FFFFFF;
     font-family: 'Montserrat-Reg'; 
-
 }
 
-
 #hero {
-
     background-color: #323640;
+    margin-top: 119px;
 }
 
 @font-face {
@@ -117,30 +116,24 @@ a, a:hover, a:focus, a:active {
 }
 
 .sectionheader {
-
     color: #3B4B64; 
     text-align: center;
 }
 
 .sections h3 {
-
     color: #3B4B64; 
 }
 
 .sections {
-
-    width: 1024px;
     margin: auto;
 }
 
 .portfoliocontainer {
-
     display: flex;
-    margin: 40px 0px;
+    margin: 40px 15%;
 }
 
 .portfoliocontent {
-
     padding-left: 100px;
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
@@ -148,7 +141,6 @@ a, a:hover, a:focus, a:active {
 }
 
 .sections button {
-
     background-color: #E4A01B;
     color: #323640; 
     font-family: 'Montserrat-Reg';
@@ -160,10 +152,9 @@ a, a:hover, a:focus, a:active {
 button:hover {
     background: #323640;
     color: white;
-  }
+}
 
 footer {
-
     background-color: #3B4B64;
     padding: 15px;
     color: #FFFFFF;
@@ -173,24 +164,20 @@ footer {
     align-items: center;
 }
 
-
 .copyright {
 
     text-align: center;
 }
 
 footer .flex-parent {
-
     justify-content: flex-start;
 }
 
 footer img {
-
-    margin-right: 20px;
-
+     margin-right: 20px;
 }
-.header {
 
+.header {
     background-color: #3B4B64;
     padding: 15px;
     color: #FFFFFF;
@@ -198,9 +185,7 @@ footer img {
     font-size: 18pt;
 }
 
-
 .herocontent {
-
     width: 1024px;
     margin: auto;
     display: flex;
@@ -211,37 +196,32 @@ footer img {
 #row {
     color: #FFFFFF;
     font-family: 'Montserrat-Reg'; 
-
 }
 
 #hero {
-
     background-color: #323640;
 }
 
-
-
 #experienceheader {
-
     background-color: #323640;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 1px;
 }
 
 .uxuidesign {
-
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 32%;
+    padding-right: 32%;
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
     color: #ffffff;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .downloadresume {
-
     background-color: #E4A01B;
     color: #323640; 
     font-family: 'Montserrat-Reg';
@@ -249,33 +229,29 @@ footer img {
     padding: 10px;
     margin-top: 40px;
     margin-bottom: 60px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 350px;
-
+    width: 180px;
+    align-self:flex-end;
+    
 }
 
 #about > h2 {
     color: #323640; 
-    text-align: center;
-    
+    text-align: center;   
 }
 
-.sectionAboutContent {
-
+ .sectionAboutContent {
     display: flex;
-    align-items: flex-start;
-
-}
+    align-items: flex-start; 
+} 
 
 #about {
-
-    margin: 0 450px;
+    margin: 0;
     margin-bottom: 50px;
+    padding-left: 32%;
+    padding-right: 32%;
 }
 
 #content-left {
-
     margin-right: 40px;
 }
 
@@ -284,34 +260,30 @@ footer img {
 }
 
 #aboutmephoto {
-
     object-fit: contain;
 }
 
 #contactheader {
-
     background-color: #323640;
     color: #FFFFFF;
     text-align: center;
     padding-top: 40px;
+
 }
 
 .contactFormContainer {
-
-    margin-left: 450px;
-    margin-right: 450px;
-    padding: 20px;
+    padding-top: 0%;
+    margin-top: 0;
+    padding-left: 32%;
+    padding-right: 32%;
+    /* padding: 20px; */
 }
 
-
 .sendButton {
-
     background-color: #E4A01B;
     margin-bottom: 40px;
 }
 
-@media screen (max-width: 600) {
-    flex-direction: columns;
-    width: 100%;
-    height: auto;
+@media screen and (max-width: 600) {
+    
 }
